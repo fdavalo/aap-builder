@@ -8,7 +8,7 @@
 * bindep.txt : rpm list needed to install
 * definition-file.yml : master file to define execution environment 
 
-## 2. ocp_nuta image
+## 2. image
 
 * Base on **UBI8** with :
 	- redhat.openshift Ansible collection
