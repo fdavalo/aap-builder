@@ -26,7 +26,7 @@ additional_build_steps:
     - RUN curl "https://mirror.openshift.com/pub/openshift-v4/x86_64/clients/ocp/latest/openshift-client-linux.tar.gz" -o /tmp/oc.tar.gz
     - RUN tar xzvf /tmp/oc.tar.gz -C /usr/local/bin/
     - RUN oc version
-    - RUN kubectl version
+    #- RUN kubectl version
     - RUN echo "Install OCP installer"
     - RUN curl "https://mirror.openshift.com/pub/openshift-v4/x86_64/clients/ocp/stable/openshift-install-linux.tar.gz" -o /tmp/ocp_installer.zip
     - RUN tar xzvf /tmp/ocp_installer.zip -C /usr/local/bin/
